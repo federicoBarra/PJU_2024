@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+PJU/Library/AnnotationManager
+PJU/Library/
+PJU/Logs/
+PJU/obj/
+PJU/Temp/FSTimeGet-e636e8c24f8893749b4998bf910828b9
+PJU/Temp/
