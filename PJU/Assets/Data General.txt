@@ -1,1 +1,41 @@
 [General]
+
+Discord
+federico.n.barra
+federico.n.barra@gmail.com
+
+Version
+	Unity 2023.2.13f1
+
+- Primer parcial:
+	FPS - URP
+	
+Temas a ver en las clases:
+- Lights
+- Interfaces
+- Meshes
+- Materiales
+- Colliders
+- Rigidbodies.
+- Post Process.
+- Animator - Bipeds and stuff
+
+- NavMesh
+- Git
+	GitKraken
+	GitBash
+
+Cosas que NO vamos a ver:
+	- Shaders
+	
+- GitHub: https://github.com/federicoBarra/PJU_2024
+- Poner imagenes de ustedes en blackboard.
+- Usar cámara en la clase.
+- Hacer Proyecto propio para el juego y compartirselo a Fede (aka profesor).
+
+- Nombre tipo de proyecto: FPS_Tito_Cosa
+
+- Nombrado de cosas:
+	Código: variables, metodos, Clases, etc.
+	Editor: escenas, carpetas, audios, etc.
+		Orden en las escenas.

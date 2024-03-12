@@ -1,1 +1,12 @@
 [Clase 01]
+
+- Crear Proyecto en Unity.
+- Copiar el controller del repo de la materia
+- Pasar repo alumno.
+
+Objetivos clase 02:
+- Nivel Básico con cubos. Tratar de meter las primitivas básicas de Unity.
+- Personaje moviendose.
+- Y que le dispare a algo y lo elimine. (en principio Raycast)
+https://docs.unity3d.com/ScriptReference/Physics.Raycast.html
+- Pasar el código al nuevo sistema de Input.

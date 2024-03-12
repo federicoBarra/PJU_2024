@@ -4,7 +4,7 @@ using Input = UnityEngine.Input;
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonController : MonoBehaviour
 {
-	public Transform look;
+	public Transform look; //pivot
 	[Header("Player Movement")]
 	[Tooltip("Move speed of the character in m/s")]
 	public float moveSpeed = 4.0f;
