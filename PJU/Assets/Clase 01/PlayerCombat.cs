@@ -10,6 +10,12 @@ public class PlayerCombat : MonoBehaviour
 
 	public float gunDamage = 10;
 
+	public bool aimingAtEnemy;
+
+	public FeddbackTiro tiroPrefab;
+
+	public Transform gunTip;
+
 
 	// Start is called before the first frame update
 	void Start()
@@ -27,14 +33,24 @@ public class PlayerCombat : MonoBehaviour
 	    }
     }
 
-    void Shoot()
+    void FixedUpdate()
+    {
+
+    }
+
+
+	void Shoot()
     {
 	    RaycastHit hit;
 
 	    Vector3 sourcePos = transform.position + offset;
 
-	    // Does the ray intersect any objects excluding the player layer
-	    if (Physics.Raycast(sourcePos, transform.forward, out hit, Mathf.Infinity, enemies))
+	    FeddbackTiro ft = Instantiate(tiroPrefab, gunTip.position, gunTip.rotation);
+
+	    ft.HaceAlgoConElTiro();
+
+		// Does the ray intersect any objects excluding the player layer
+		if (Physics.Raycast(sourcePos, transform.forward, out hit, Mathf.Infinity, enemies))
 	    {
 		    Enemy e = hit.transform.GetComponentInParent<Enemy>();
 			e.ReceiveDamage(gunDamage);

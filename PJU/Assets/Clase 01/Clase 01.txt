@@ -9,4 +9,7 @@ Objetivos clase 02:
 - Personaje moviendose.
 - Y que le dispare a algo y lo elimine. (en principio Raycast)
 https://docs.unity3d.com/ScriptReference/Physics.Raycast.html
+
 - Pasar el código al nuevo sistema de Input.
+
+

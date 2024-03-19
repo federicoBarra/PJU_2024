@@ -4,6 +4,8 @@ using Input = UnityEngine.Input;
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonController : MonoBehaviour
 {
+	public float health = 100;
+
 	public Transform look; //pivot
 	[Header("Player Movement")]
 	[Tooltip("Move speed of the character in m/s")]
@@ -33,6 +35,8 @@ public class FirstPersonController : MonoBehaviour
 	[Header("Camera Limits")]
 	public float minCameraAngle = -90F;
 	public float maxCameraAngle = 90F;
+
+	public float crashForce = 10;
 
 	private CharacterController controller;
 
@@ -126,5 +130,25 @@ public class FirstPersonController : MonoBehaviour
 		q.x = Mathf.Tan(0.5f * Mathf.Deg2Rad * angleX);
 
 		return q;
+	}
+
+	void OnControllerColliderHit(ControllerColliderHit hit)
+	{
+		//Debug.Log("Choque contra: " + hit.gameObject.name);
+		//if (hit.gameObject.name == "Sphere (1)")
+		//{
+		//	hit.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+		//}
+		//
+		//Rigidbody rig = hit.gameObject.GetComponent<Rigidbody>();
+		//
+		//if (!rig) 
+		//	return;
+		//
+		//Vector3 dir = rig.transform.position - transform.position;
+		//dir.Normalize();
+		//
+		//rig.AddForce(dir * crashForce, ForceMode.VelocityChange);
+		//rig.AddExplosionForce();
 	}
 }

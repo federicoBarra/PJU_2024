@@ -1,4 +1,6 @@
 [General]
+Drive 
+https://drive.google.com/drive/folders/1CaPuKahSrAF_8KO0Jead6MGqr_ks1DKV?usp=sharing
 
 Discord
 federico.n.barra
@@ -39,3 +41,25 @@ Cosas que NO vamos a ver:
 	Código: variables, metodos, Clases, etc.
 	Editor: escenas, carpetas, audios, etc.
 		Orden en las escenas.
+		
+		
+Donde chorear recursos:
+	https://assetstore.unity.com/
+	https://opengameart.org/
+	https://kenney.nl/assets
+	
+	
+	
+Repos Alumnos:
+Emiliano Martel
+https://assetstore.unity.com/packages/3d/props/weapons/3d-guns-guns-pack-228975
+Catalina Orgniani
+https://github.com/orgniani/FPS_Orgniani_2024
+Martin Concetti Rizzardi
+https://github.com/hipnotismo/Fps_Game
+Brian Andres Suhit
+https://github.com/BrianSuhitTecnicatura/FPS_BrianSuhit
+Lautaro Gerez
+https://github.com/RyuDoJaneiro/GEREZL-FPS
+Luciana Vilma Dughetti
+https://github.com/ludughetti/FPS_Luciana_Dughetti
