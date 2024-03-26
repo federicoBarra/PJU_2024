@@ -1,4 +1,7 @@
 [General]
+
+- Llegar temprano
+
 Drive 
 https://drive.google.com/drive/folders/1CaPuKahSrAF_8KO0Jead6MGqr_ks1DKV?usp=sharing
 
@@ -22,7 +25,6 @@ Temas a ver en las clases:
 - Post Process.
 - Animator - Bipeds and stuff
 
-- NavMesh
 - Git
 	GitKraken
 	GitBash
@@ -42,24 +44,38 @@ Cosas que NO vamos a ver:
 	Editor: escenas, carpetas, audios, etc.
 		Orden en las escenas.
 		
-		
 Donde chorear recursos:
 	https://assetstore.unity.com/
 	https://opengameart.org/
 	https://kenney.nl/assets
 	
-	
-	
-Repos Alumnos:
-Emiliano Martel
-https://assetstore.unity.com/packages/3d/props/weapons/3d-guns-guns-pack-228975
-Catalina Orgniani
-https://github.com/orgniani/FPS_Orgniani_2024
-Martin Concetti Rizzardi
+{REPOS}
+{Maximiliano Fabian Acosta}
+https://github.com/MaximilianoAcosta/AcostaMaximiliano_TDMT-2C-PPPJU-N-A-24
+
+{Martín Concetti Rizzardi}
 https://github.com/hipnotismo/Fps_Game
-Brian Andres Suhit
-https://github.com/BrianSuhitTecnicatura/FPS_BrianSuhit
-Lautaro Gerez
+
+{Luciana Vilma Dughetti}
+BUG {404} https://github.com/ludughetti/FPS_Luciana_Dughetti
+
+{Lautaro Gerez Aguayo}
 https://github.com/RyuDoJaneiro/GEREZL-FPS
-Luciana Vilma Dughetti
-https://github.com/ludughetti/FPS_Luciana_Dughetti
+
+{Cecilia Gabrielle Illueca Colley}
+https://github.com/CeciliaColley/PJU_FPS_Avances
+
+{Emiliano David Martel Rodriguez}
+https://github.com/EmilianoMartel/FPS_Emiliano_Martel
+
+{Catalina Orgniani}
+https://github.com/orgniani/FPS_Orgniani_2024
+
+{Agustín Pailhe}
+BUG
+
+{Santiago Andrés Restrepo Pardo}
+BUG
+
+{Brian Suhit}
+https://github.com/BrianSuhitTecnicatura/FPS_BrianSuhit

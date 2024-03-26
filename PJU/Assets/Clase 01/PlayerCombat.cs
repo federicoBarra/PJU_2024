@@ -53,6 +53,8 @@ public class PlayerCombat : MonoBehaviour
 		if (Physics.Raycast(sourcePos, transform.forward, out hit, Mathf.Infinity, enemies))
 	    {
 		    Enemy e = hit.transform.GetComponentInParent<Enemy>();
+			//hit.point
+			//hit.normal
 			e.ReceiveDamage(gunDamage);
 
 		    //hit.point

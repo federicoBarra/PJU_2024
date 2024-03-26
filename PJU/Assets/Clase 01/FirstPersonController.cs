@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UIElements;
+using Cursor = UnityEngine.Cursor;
 using Input = UnityEngine.Input;
 
 [RequireComponent(typeof(CharacterController))]
@@ -53,6 +55,7 @@ public class FirstPersonController : MonoBehaviour
 		controller = GetComponent<CharacterController>();
 		characterTargetRot = transform.localRotation;
 		cameraTargetRot = look.localRotation;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 	void Update()
 	{
@@ -69,6 +72,16 @@ public class FirstPersonController : MonoBehaviour
 		Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - groundedOffset, transform.position.z);
 		grounded = Physics.CheckSphere(spherePosition, groundedRadius, groundLayers, QueryTriggerInteraction.Ignore);
 	}
+
+	//public void Jump() //un evento que se llama desde el manager de Input.
+	//{
+	//	if (grounded && jump)
+	//	{
+	//		// the square root of H * -2 * G = how much velocity needed to reach desired height
+	//		verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
+	//	}
+	//}
+
 	private void JumpAndGravity()
 	{
 		if (grounded && jump)
