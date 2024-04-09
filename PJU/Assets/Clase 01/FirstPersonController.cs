@@ -3,9 +3,23 @@ using UnityEngine.UIElements;
 using Cursor = UnityEngine.Cursor;
 using Input = UnityEngine.Input;
 
-[RequireComponent(typeof(CharacterController))]
-public class FirstPersonController : MonoBehaviour
+public interface IHittable
 {
+	public void ReceiveDamage(float damage);
+	//public bool IsAlive { get; set; }
+}
+
+[RequireComponent(typeof(CharacterController))]
+public class FirstPersonController : MonoBehaviour, IHittable
+{
+	public AnimationCurve headAnimationCurve;
+	public Transform cameraTransform;
+
+	public void ReceiveDamage(float damage)
+	{
+		Debug.Log("Me pegaron");
+	}
+
 	public float health = 100;
 
 	public Transform look; //pivot
@@ -57,6 +71,10 @@ public class FirstPersonController : MonoBehaviour
 		cameraTargetRot = look.localRotation;
 		Cursor.lockState = CursorLockMode.Locked;
 	}
+
+	public float t;
+	public float duration = 1;
+
 	void Update()
 	{
 		jump = Input.GetKeyDown(KeyCode.Space);
@@ -65,7 +83,14 @@ public class FirstPersonController : MonoBehaviour
 		JumpAndGravity();
 		Move();
 		LookRotation();
-    }
+
+		t += Time.deltaTime;
+		if (t >= duration)
+			t -= duration;
+		Vector3 camPos = cameraTransform.localPosition;
+		camPos.y = headAnimationCurve.Evaluate(t / duration);
+		cameraTransform.localPosition = camPos;
+	}
 
 	private void GroundedCheck()
 	{
@@ -164,4 +189,6 @@ public class FirstPersonController : MonoBehaviour
 		//rig.AddForce(dir * crashForce, ForceMode.VelocityChange);
 		//rig.AddExplosionForce();
 	}
+
+	
 }

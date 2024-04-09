@@ -1,21 +1,28 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IHittable
 {
 	public float health =100;
 	private NavMeshAgent agent;
 
 	public Transform target;
 
+	private Animator animator;
+
 	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
+		animator = GetComponentInChildren<Animator>();
 	}
 
 	void Update()
 	{
-		agent.SetDestination(target.position);
+		if (agent)
+		{
+			agent.SetDestination(target.position);
+			animator.SetFloat("Velocidad", agent.velocity.magnitude);
+		}
 	}
 
 	public void ReceiveDamage(float damage)
@@ -23,3 +30,5 @@ public class Enemy : MonoBehaviour
 		health -= damage;
 	}
 }
+
+

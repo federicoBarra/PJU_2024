@@ -57,7 +57,7 @@ https://github.com/MaximilianoAcosta/AcostaMaximiliano_TDMT-2C-PPPJU-N-A-24
 https://github.com/hipnotismo/Fps_Game
 
 {Luciana Vilma Dughetti}
-BUG {404} https://github.com/ludughetti/FPS_Luciana_Dughetti
+https://github.com/ludughetti/FPS_Luciana_Dughetti
 
 {Lautaro Gerez Aguayo}
 https://github.com/RyuDoJaneiro/GEREZL-FPS
@@ -75,7 +75,7 @@ https://github.com/orgniani/FPS_Orgniani_2024
 BUG
 
 {Santiago Andrés Restrepo Pardo}
-BUG
+https://github.com/SantiGamer10/FPS_Santiago-Restrepo.git
 
 {Brian Suhit}
 https://github.com/BrianSuhitTecnicatura/FPS_BrianSuhit

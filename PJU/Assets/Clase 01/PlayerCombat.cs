@@ -52,7 +52,8 @@ public class PlayerCombat : MonoBehaviour
 		// Does the ray intersect any objects excluding the player layer
 		if (Physics.Raycast(sourcePos, transform.forward, out hit, Mathf.Infinity, enemies))
 	    {
-		    Enemy e = hit.transform.GetComponentInParent<Enemy>();
+		    IHittable e = hit.transform.GetComponentInParent<IHittable>();
+		    //ExplosiveBarrel eb = hit.transform.GetComponentInParent<ExplosiveBarrel>();
 			//hit.point
 			//hit.normal
 			e.ReceiveDamage(gunDamage);

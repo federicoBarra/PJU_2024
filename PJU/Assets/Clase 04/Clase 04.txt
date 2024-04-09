@@ -1,0 +1,45 @@
+[Clase 04]
+
+Preguntas:
+Cámara Borrosa.
+Ciertas cuestiones de eventos y Métodos Anónimos.
+Explode When Dies (uso básico de interfaces)
+Animator Básico. Mixamo.
+PostProcess
+
+{Tareas FPS Game}
+00 - Cuando un enemigo muere genera un fuerza explosiva que empuja a los objetos que tiene alrededor (AddExplosionForce).
+	https://docs.unity3d.com/ScriptReference/Rigidbody.AddExplosionForce.html
+01 - 30min - Una mira para el arma.
+02 - 1/2 horas - El color de la mira debe depender de si estoy apuntando a un enemigo o no.
+03 - 10min - Mostrar el texto de vida. 
+04 - 10min - Barrita de vida.
+05 - 20min - Arma, coherente.
+06 - 1hora - Agregarle Feedback al tiro. (LineRenderer) https://docs.unity3d.com/ScriptReference/LineRenderer.html
+https://docs.unity3d.com/ScriptReference/ParticleSystem.html
+https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
+07 - 1hora - Agregarle humo a la punta de la pistola cuando diparo.
+08 - 1hora - Agregarle sangre al enemigo cuando le pego.
+09 - Enemigos que mueran.
+10 - Que me presigan
+11 - Que los enemigos muestren su barra de vida de alguna forma.
+12 - GameManager -> gano cuando mate todos los enemies, pierdo cuando no tengo mas vida.
+13 - Lockear cursor
+Clase 04:
+14 - Animaciones para el enemigo.
+15 - Agregar diferentes tipos de enemigo y que estos me puedan hacer perder.
+16 - Empezar a trabajar en las diferentes armas.
+17 - Que haya post proceso
+
+Tomar el tiempo que les lleva cada tarea.
+https://es.wikipedia.org/wiki/Planning_poker
+
+Próxima clase: Clase 05
+Conceptos de Vector3 y Quaternions. Rotaciones y matematica básica 3D
+Uso de texturas en UI
+UI Que se pisa (quedó de la clase anterior)
+Prefijo UI en componentes de UI
+Ver TODO
+Minimap
+Probuilder
+Builds Semanales
