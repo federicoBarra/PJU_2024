@@ -30,6 +30,7 @@ Ammo, vida, armas.
 [Publicación]
 itch.io
 
+Builds Semanales
 {IMPORTANTE} Cualquier asset externo utilizado debe ser mencionado en la pantalla de creditos.
 
 Features:

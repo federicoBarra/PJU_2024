@@ -1,0 +1,100 @@
+[Clase 04]
+
+Preguntas:
+Uso de Trello
+Crearse un Trello del proyecto.
+	Backlog => Tareas hasta que termine el proyecto.
+	TODO Semana 15/04 => tareas que se van a completar a la semana siguiente.
+	DONE => Tareas completadas totales del proyecto. (pueden ser vrias pestañas) Estas son los nuevos features que va a tener la ultima build.
+
+Verbose Code
+
+Remover carpeta TutorialInfo y Readme que creó unity.
+AnimationCurve
+Sobre comentarios en código (en esta materia). Doxygen
+/// <summary> This method active the credits menu. </summary>
+en vez de 
+/// <summary> 
+/// This method active the credits menu. 
+/// </summary>
+Tip: Prefijo UI en componentes de UI
+	MenuController =>
+	UIMainMenu
+Uso de texturas en UI
+Usar texturas en el aspect ration en el que fueron creado. Sliced, 9grid, Pixel per unit
+
+Nombrado de identificadores => ver en proyecto de Brian.
+
+Hagamos de cuenta que soy el jefe. Builds semanales que funcionen.
+
+cuidado con el overengineering
+https://en.wikipedia.org/wiki/Overengineering
+
+{Brian Suhit}
+MenuInputController => UIMainMenu
+CreditsButton => El nombre del método debe definir QUE hace el método, NO quien o de donde se llama
+Avanzar más con el proyecto.
+
+{Emiliano Martel Rodriguez}
+Orden en el Hierarchy.
+Orden en los scripts del proyecto.
+Porque BulletTrail : Character? 
+Ver RequiredComponent
+Que es CharacterView?
+InteractiveMoment? => Interact o InteractNow
+Hazard => a todos les hace daño?
+Ver Gun => tooltip? nombre claro en el field, viewEnemy, _canshoot
+	Mezcla entre channels y eventos normales
+UI?
+WeaponChanger : IInteract?
+VisualEffects => VFX
+Separar lo que son scripts de testeo de lo que está realmente en el juego.
+
+{Maximiliano Fabian Acosta}
+Porque no usar el Playercontroller provisto en clase?
+Shooting => CombatController o algo así. => ShootController
+No usar GetComponent<Image>() en el Update.
+HealthController => separar la funcionalidad de la UI
+MVC => MVVM => MVP
+onDamageTaken => para que usarlo en el mismo script en donde haces la misma accion
+	Además: para que asignarle 3 métodos y no uno solo que tome la accion?
+Viene bien, hacer más!
+
+{Lautaro Gerez Aguayo}
+Viene bien, hacer más!
+
+{Tareas FPS Game}
+00 - Cuando un enemigo muere genera un fuerza explosiva que empuja a los objetos que tiene alrededor (AddExplosionForce).
+	https://docs.unity3d.com/ScriptReference/Rigidbody.AddExplosionForce.html
+01 - 30min - Una mira para el arma.
+02 - 1/2 horas - El color de la mira debe depender de si estoy apuntando a un enemigo o no.
+03 - 10min - Mostrar el texto de vida. 
+04 - 10min - Barrita de vida.
+05 - 20min - Arma, coherente.
+06 - 1hora - Agregarle Feedback al tiro. (LineRenderer) https://docs.unity3d.com/ScriptReference/LineRenderer.html
+https://docs.unity3d.com/ScriptReference/ParticleSystem.html
+https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
+07 - 1hora - Agregarle humo a la punta de la pistola cuando diparo.
+08 - 1hora - Agregarle sangre al enemigo cuando le pego.
+09 - Enemigos que mueran.
+10 - Que me presigan
+11 - Que los enemigos muestren su barra de vida de alguna forma.
+12 - GameManager -> gano cuando mate todos los enemies, pierdo cuando no tengo mas vida.
+13 - Lockear cursor
+Clase 04:
+14 - Animaciones para el enemigo.
+15 - Agregar diferentes tipos de enemigos y que estos me puedan hacer perder.
+16 - Empezar a trabajar en las diferentes armas.
+17 - Que haya post proceso
+
+Tomar el tiempo que les lleva cada tarea.
+https://es.wikipedia.org/wiki/Planning_poker
+
+Próxima clase: Clase 05
+Conceptos de Vector3 y Quaternions. Rotaciones y matematica básica 3D
+
+UI Que se pisa (quedó de la clase anterior)
+Ver TODO
+Minimap
+Probuilder
+Builds Semanales
