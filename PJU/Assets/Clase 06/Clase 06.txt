@@ -1,0 +1,66 @@
+[Clase 06]
+
+-[TRELLO Y BUILDS SEMANALES]-
+
+Trellos
+Armar Trello, Setear las tareas a hacer (TODAS, Backlog)
+Comprometerse a hacer ciertas tareas para la semana que viene.
+y Ya.
+
+[VER YO]
+Maxi ver sombra que se mueve mal?
+
+Para la clase que viene, todos los proyectos con un loader.
+ver tema sombras.
+
+El demonio está en el copy paste.
+
+{Catalina Orgniani}
+Muy bien
+Juego y Unity
+	Orden en el Hierarchy
+	Agregar un Loader.
+	Agregar algún trigger de algo?
+	Detalles de las sombras
+	El enemigo cuando camina hacia mi me empuja para atrás.
+	
+public float getHealth() => health;
+=>
+public float Health => health;
+
+onDead.Invoke(); => onDead?.Invoke();
+
+Quizás en MeleeAttack tiene mas sentido usar un SphereCast y checkear ángulo de ataque en vez de un raycast
+
+Enemy => la AI es simple, pero quizás tenga sentido hacer una mini state machine.
+Hace un poco de ruido que el MeleeAttack se enganche del player o al revés. Charlar en clase.
+
+ver GameManager y Killcounter.
+Como viene a funcionar LevelManager?
+
+ver eventos y performance.
+
+BUG si aprieto Esq en el ingame menu se tilda un poco todo.
+
+{Santiago Andrés Restrepo Pardo}
+Viene bien, hay que ponerse al día.
+
+{Cecilia Gabrielle Illueca Colley}
+Viene bien, hay que avanzar más.
+Juego y Unity
+	Orden en el Hierarchy
+	UI para el arma
+	Barra de enemigo, usar textura con el aspect ratio correcto.
+	
+if (gun != null)
+=> if (gun == null) return;
+Ver proyecto en clase.
+
+{Martín Concetti Rizzardi}
+NO veo cambio de hace más de un mes. Hay que ponerse al día.
+
+{Luciana Vilma Dughetti}
+NO veo cambio de hace más de un mes. Hay que ponerse al día.
+
+{Agustín Pailhe}
+NO Tengo tu repo todavía

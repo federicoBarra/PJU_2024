@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,6 +24,8 @@ public class CurveTest : MonoBehaviour
 	private float t;
 
 	private Renderer renderer;
+
+	public TMP_Text loadingText;
 
 	void Awake()
 	{
@@ -50,9 +53,13 @@ public class CurveTest : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.Space))
 	    {
-		    StartCoroutine(Hit());
+		    LoaderManager.Get().LoadScene("Testeo Sombra", 2);
+			StartCoroutine(Hit());
 	    }
-	}
+
+		loadingText.text = (LoaderManager.Get().loadingProgress * 100).ToString("N0");
+
+    }
 
     IEnumerator Hit()
     {
