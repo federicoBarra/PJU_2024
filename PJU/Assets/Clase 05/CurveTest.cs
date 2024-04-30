@@ -11,6 +11,11 @@ public class CurveTest : MonoBehaviour
 	//rot
 	//public Animator ani;
 
+	public float Health;
+	public float pf_health;
+
+	public float health;
+
 	public AnimationCurve curve;
 	public AnimationCurve curveColor;
 	public Material sharedMaterial;
@@ -38,6 +43,8 @@ public class CurveTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if (VerboseConfig.Get().playerVerbose)
+			Debug.Log("Player vivo");
 		//uso del renderer
 
 		//t += Time.deltaTime;

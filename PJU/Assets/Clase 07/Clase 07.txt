@@ -1,0 +1,76 @@
+[Clase 06]
+
+-[TRELLO Y BUILDS SEMANALES]-
+
+Trellos - Hacerlo public.
+Traqueo en clase.
+Builds
+
+[VER YO]
+Maxi ver sombra que se mueve mal?
+Cast Shadow only en el Renderer de la pistola
+
+-[Para la clase que viene, todos los proyectos con un loader.]- 
+Alguien lo probó ??????
+
+Coding conventions.
+https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md
+
+Guarda con los logs infinitos en la consola.
+- Config Singleton.
+	Verbose.
+
+- Cheats
+	
+- Importancia del uso del ingles en identificadores (métodos, clases, variables, etc)
+	AttackEnemy != EnemyAttack
+
+EnemyAtack => este es el ataque del enemigo
+AttackEnemy => atacá al enemigo.
+
+EnemyBehaviuor
+BehaviuorEnemy
+
+EnemyAttack => 
+
+bool EnemyAtacking
+
+Agregado al TODO
+[Sonido]
+El juego debe tener un sonido básico. Armas, UI, etc.
+Disparo
+Muerte de un enemigo.
+UI => button.
+Musica
+	
+animator Blend Tree.
+Ver máquinas de estado básicas.
+
+Ver armas diferentes.
+
+{Emiliano Martel Rodriguez}
+Organizacion en la carpeta de Scripts
+Bullet => separar en GameObjects
+Empezar a meter UI.
+    private void NullReferenceController() => Validate()
+EnemyMeleeAttack hereda de Enemy?
+
+TargetProvider;
+Player
+MaquinaLoca
+
+Enemy
+public TargetProvider provider;
+
+provider.GetTarget()
+
+
+{Maximiliano Fabian Acosta}
+Enemy_Behaviour => EnemyBehaviour
+MAS!
+
+{Lautaro Gerez Aguayo}
+MAS!
+
+{Brian Suhit}
+MAS!

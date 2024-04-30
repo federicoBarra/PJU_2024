@@ -27,6 +27,9 @@ Ingame Menu
 [Pickupeables]
 Ammo, vida, armas.
 
+[Sonido]
+El juego debe tener un sonido básico. Armas, UI, etc.
+
 [Publicación]
 itch.io
 
