@@ -1,0 +1,59 @@
+[Clase 08]
+
+-[TRELLO Y BUILDS SEMANALES]-
+Trellos - Hacerlo public.
+Builds
+
+Preguntas.
+	Maxi - Camara que no supere cierto grado.
+
+Builds, ver en clase, vamos a opinar todes.
+Dudas de como hacer tal cosa.
+Repasar lo que fuimos viendo.
+
+Lunes vemos proyecto de Brian.
+
+
+{Emi}
+Feedback de la gente:
+
+Piola:
+	Nivel
+	Enemigos
+	Animaciones
+	Menuses
+	Como se ve todo.
+	Shooting
+	yo me quise tirar por la ventana y no pude así que eso está bien hecho
+	
+Criticas:
+	Loading.
+	No hay info de que hacer, no se entiende mucho eso.
+	Soft Lock. Gane o pierda no puedo hacer nada.
+	Para salir tengo que hacer alt + F4.
+	Bugs a resolver.
+
+	Artisticas o de presentacion:
+		La barra de vida de los enemigos debería apuntar a la camara.
+		Enemigos con todos los modelos prendidos a la vez.
+		Usar texturas en el aspect ratio en el que estan pensadas.
+	
+Que arreglarías:
+	Tutorial.
+	Termina demasiado rápido.
+	
+{Cata}
+Piola:
+	Main menu enenimos bailando.
+	Sonidos! y musica.
+	todo lo que es estética.
+	El concepto es excelente.
+	Fx de fuego.
+	
+Criticas:
+	No hay info de que hacer, no se entiende mucho eso.
+	Solucion a esto:
+		Imagen de How to play. Que se pueda acceder desde el Ingame menu y main menu tambien.
+	
+Lunes que viene:	
+	Analizar los proyectos de todes. Como las cosas buenas y malas se ven reflejadas en nuestro juego.

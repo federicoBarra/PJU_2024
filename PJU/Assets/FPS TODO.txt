@@ -1,10 +1,18 @@
 {Tareas FPS Game}
 
+Entregar esto el Lunes 20/05/2024. 
+Lo perfecto es enemigo de lo bueno.
+Se toma como ultimo commit lo subido el 20.
+Build en el drive compartido.
+Itch.io
+
 Se debe hacer un FPS con los siguientes features:
 
 Objetivo:
 Para ganar nuestro personaje debe salir de un punto A y llegar vivo a un punto B. (si la propuesta es mejor vamos para adelante)
 En el camino se encuentra con enemigos y pickupeables.
+El proyecto debe no tener errores, compilar, y ejecutar.
+Me interesa más que el juego no esté bugeado a que tenga todos los puntos.
 
 [Pantallas]
 Logos inciales. Empresa, Juego.
