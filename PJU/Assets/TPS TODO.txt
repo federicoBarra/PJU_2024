@@ -1,0 +1,70 @@
+{Tareas TPS Game}
+
+Unity version: 2022.3.26f1
+
+Se debe hacer un TPS con los siguientes features:
+
+Objetivo:
+Para ganar nuestro personaje debe salir de un punto A y llegar vivo a un punto B. (si la propuesta es mejor vamos para adelante)
+En el camino se encuentra con enemigos y pickupeables.
+El proyecto debe no tener errores, compilar, y ejecutar.
+Me interesa más que el juego no esté bugeado a que tenga todos los puntos.
+
+[Pantallas]
+Logos inciales. Empresa, Juego.
+Main Menu
+	Jugar, opciones, creditos, salir
+Opciones
+	Poder modificar volumenes de sonido.
+Creditos
+	Cualquier asset externo utilizado debe ser mencionado en la pantalla de creditos.
+Loading Screen
+Ingame Menu
+	Poder modificar volumenes de sonido, Ir al Main Menu, Salir del juego.
+
+[Enemigos]
+3 tipos de enemigos.
+
+[Armas Player]
+3 armas diferentes. Melee, pistola, lanza misiles.
+
+[Pickupeables]
+Ammo, vida, armas.
+
+[Sonido]
+El juego debe tener un sonido básico. Armas, UI, etc.
+
+[Publicación]
+itch.io
+
+Builds Semanales
+{IMPORTANTE} Cualquier asset externo utilizado debe ser mencionado en la pantalla de creditos.
+
+Features:
+Clase 02
+00 - Cuando un enemigo muere genera un fuerza explosiva que empuja a los objetos que tiene alrededor (AddExplosionForce).
+01 - Una mira para el arma.
+02 - El color de la mira debe depender de si estoy apuntando a un enemigo o no.
+03 - Mostrar el texto de vida. 
+04 - Barrita de vida.
+05 - Arma, coherente.
+06 - Agregarle Feedback al tiro. 
+07 - Agregarle humo a la punta de la pistola cuando diparo.
+08 - Agregarle sangre al enemigo cuando le pego.
+Clase 03
+09 - Enemigos que mueran.
+10 - Que me presigan
+11 - Que los enemigos muestren su barra de vida de alguna forma.
+12 - GameManager -> gano cuando mate todos los enemies, pierdo cuando no tengo mas vida.
+13 - Lockear cursor
+Clase 04:
+14 - Animaciones para el enemigo.
+15 - Agregar diferentes tipos de enemigo y que estos me puedan hacer perder.
+16 - Empezar a trabajar en las diferentes armas.
+17 - Que haya post proceso
+
+Debe haber 3 niveles, pensando en la posibilidad de que sean 1000 niveles.
+Guardar el progreso del jugador.
+
+
+Uso de partículas

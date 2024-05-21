@@ -1,0 +1,14 @@
+[Clase 09]
+
+Lunes vemos proyecto de Brian.
+
+TPS controller 
+	Animator asignado
+Cinemachine basis
+Animation Events
+
+Laburar en esto:
+crear proyecto
+Importar TPS
+Jugar con aniaciones y animator y eso.
+Empezar a traer las cosas del juego anterior. (lo que aplique)
