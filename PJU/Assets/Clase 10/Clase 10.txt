@@ -1,0 +1,51 @@
+[Clase 10]
+
+Organización del projecto para las clases que nos quedan
+-[TRELLO Y BUILDS SEMANALES]-
+
+Tirar todo esto en trello 
+	Separar en Sprints por semana.
+	Separar las tareas de cada semana.
+
+{Semana 01}
+	[3rd view controller]
+		Camara
+			si aprieto boton derecho acerca la camara y se pone en modo de disparar, etc.
+		Animaciones.
+		Adaptar las armas a 3ra persona.
+	[Armas Player]
+{Semana 02}
+	[3rd view controller] - Pulido
+	[Enemigos]
+{Semana 03}
+	[Pantallas]
+	[Pickupeables] - Simplón, fijados en el mapa. No hace falta tener un sistema dinamico de spawneo de pickups...
+	[Sonido]
+{Semana 04}
+	Pulido general
+	
+Lo de arriba es la entrega del segundo parcial.
+Si las cosas de arriba están completas, seguir con lo de abajo:
+
+Adicionales:
+Barriles explosivos o similar. AddForce. Empuja las cosas que tiene alrededor, hace daño.
+Ragdoll - Investigar un poco.
+Animation Rigging - 
+	https://learn.unity.com/tutorial/working-with-animation-rigging
+Camera Shake
+	https://assetstore.unity.com/?free=true&q=camera%20shake&orderBy=1
+InScreen damage feedback
+	Imagen en UI o shader loco.
+	https://www.youtube.com/watch?v=mCpRxFP2J1c
+Intro con Timeline
+	
+Waypoint system - 
+	un sistema de patrol para los enemigos.
+Save System.
+	Guardar pos del player y estado básico del juego.
+Pooling system
+	https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html
+
+Final:
+FPS + TPS
+con un botón cambio de modo de combate.

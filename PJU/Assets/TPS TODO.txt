@@ -25,7 +25,7 @@ Ingame Menu
 [Enemigos]
 3 tipos de enemigos.
 
-[Armas Player]
+[Armas Player] - Fundamental, Pensar como agregaría facilmente un arma nueva.
 3 armas diferentes. Melee, pistola, lanza misiles.
 
 [Pickupeables]
