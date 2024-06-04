@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af6c98fdf514e9547a724f9d63b36927, type: 3}
   m_Name: VerboseConfig
   m_EditorClassIdentifier: 
-  playerVerbose: 1
+  playerVerbose: 0

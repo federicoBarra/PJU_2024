@@ -1,0 +1,23 @@
+[Clase 11]
+
+Buscar videito Animation Rigging.
+Fede va a checkear esto {Semana 01} y volver con devoluciones.
+
+LFS.
+
+Inverse Kinematic.
+
+Links a los repos nuevos.
+Links a los trellos nuevos.
+
+{En general}
+- Escenas Standalone
+- Attenti a los warnings y errores en consola.
+- Log en consola se pasan a la build.
+- Guarda con el uso de varios colliders en el mismo GameObject.
+- EnemyManager
+- CUIDADO CON LOS SINGLETONS!!!!!!!
+- Try catch
+	
+
+

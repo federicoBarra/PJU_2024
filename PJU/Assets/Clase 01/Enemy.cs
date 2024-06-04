@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -10,10 +11,14 @@ public class Enemy : MonoBehaviour, IHittable
 
 	private Animator animator;
 
+	public static event Action<Enemy> OnEnemySpawned;
+	public static event Action<Enemy> OnEnemyDeath;
+
 	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
 		animator = GetComponentInChildren<Animator>();
+		GameObject target = MegaObjetoDeInformacionDelJuego.Get().player;
 	}
 
 	void Update()
